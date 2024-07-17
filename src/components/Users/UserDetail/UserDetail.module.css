@@ -1,0 +1,65 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  min-height: 100vh;
+  color: white;
+  position: relative;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #5a2d82;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.userDetails {
+  display: flex;
+  align-items: center;
+}
+
+.userDetails img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.name {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.backButton,
+.logoutButton {
+  width: 100px;
+  background-color: #5a2d82;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details {
+  background-color: white;
+  color: #5a2d82;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 20px;
+}
