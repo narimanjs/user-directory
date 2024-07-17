@@ -31,7 +31,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://narimanjs.github.io/user-directory",
+  "homepage": "/",
   "eslintConfig": {
     "extends": [
       "react-app",
