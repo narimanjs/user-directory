@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import Login from "./components/Auth/Login/Login";
 import Register from "./components/Auth/Register/Register";
 import UserList from "./components/Users/UserList/UserList";
@@ -27,6 +32,10 @@ const App = () => {
           <Route
             path='/users/:id'
             element={<UserDetail />}
+          />
+          <Route
+            path='/'
+            element={<Navigate to='/login' />}
           />
         </Routes>
       </Router>
